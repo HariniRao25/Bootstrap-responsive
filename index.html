@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,46 +17,23 @@
       margin: 20px;
       justify-content: space-evenly;
     }
+
     .card {
       margin: 20px;
       width: 800px;
     }
+
     .button {
       margin-left: 10px;
     }
   </style>
 </head>
+
 <body>
-  <div id="carouselExampleIndicators" class="carousel slide">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="..." class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">ADVENTURE</a>
+      <a class="navbar-brand" href="#"> Cake Bakery</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -66,84 +44,119 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Packages</a>
+            <a class="nav-link" href="#">Contact</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Queries
+              Category
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">About Us</a></li>
+              <li><a class="dropdown-item" href="#">Flavors</a></li>
               <hr>
-              <li><a class="dropdown-item" href="#">Contact Us</a></li>
+              <li><a class="dropdown-item" href="#">Ocassions</a></li>
             </ul>
           </li>
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-dark" type="submit">Explore</button>
+          <button class="btn btn-outline-dark" type="submit">visit</button>
         </form>
       </div>
     </div>
   </nav>
+  <!-- carousel -->
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="cake1.png" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="cake2.png" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="cake3.png" class="d-block w-100">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
   <!-- images i.e cards -->
   <div class="img">
     <div class="card cards" style="width: 20rem;">
-      <img src="kerala.jpeg" class="card-img-top">
+      <img src="redvelvet.png" class="card-img-top">
       <div class="card-body">
-        <h5 class="card-title">Kerala - God's own country</h5>
-        <p class="card-text">A tropical paradise of serene backwaters, lush hills, pristine beaches, and vibrant
-          culture. From houseboat cruises in Alleppey to the misty Munnar hills, Kerala offers a perfect blend of
-          nature, tradition, and adventure.</p>
-        <a href="#" class="btn btn-dark button">Book Now</a>
+        <h5 class="card-title"><b>Red Velvet</b></h5>
+        <p class="card-text">Red Velvet – A classic, rich cocoa-flavored cake with a hint of vanilla, paired with smooth cream cheese frosting for a perfect balance of sweetness and tang.</p>
+        <a href="#" class="btn btn-dark button">ORDER NOW</a>
       </div>
     </div>
     <div class="card" style="width: 21.5rem;">
-      <img src="jaipur.jpg" class="card-img-top">
+      <img src="blackforest.png" class="card-img-top">
       <div class="card-body">
-        <h5 class="card-title">Jaipur – The Pink City</h5>
-        <p class="card-text">A royal blend of history, culture, and grandeur. From the majestic Amber Fort to the
-          vibrant bazaars and stunning palaces, Jaipur offers a mesmerizing glimpse into Rajasthan’s rich heritage.</p>
-        <a href="#" class="btn btn-dark button">Book Now</a>
+        <h5 class="card-title"><b>Black Forest</b></h5>
+        <p class="card-text"> A decadent chocolate cake layered with whipped cream and cherry filling, topped with chocolate shavings and cherries for a rich, fruity delight.</p>
+        <a href="#" class="btn btn-dark button">ORDER NOW</a>
       </div>
     </div>
     <div class="card" style="width: 21rem;">
-      <img src="himachal.jpg" class="card-img-top kerala">
+      <img src="pineapple.png" class="card-img-top kerala">
       <div class="card-body">
-        <h5 class="card-title">Himachal Pradesh – Land of the Himalayas</h5>
-        <p class="card-text">A scenic wonderland of snow-capped peaks, lush valleys, and adventure. From the serene
-          hills of Manali to the spiritual vibes of Dharamshala, Himachal offers the perfect escape for nature lovers
-          and thrill-seekers alike.</p>
-        <a href="#" class="btn btn-dark button">Book Now</a>
+        <h5 class="card-title"><b>Pineapple</b></h5>
+        <p class="card-text">A light and refreshing cake with layers of moist sponge, luscious pineapple filling, and creamy frosting, topped with juicy pineapple slices.Pineapple Cream – A moist and airy cake layered with rich pineapple compote and smooth whipped cream, topped with juicy pineapple chunks for a burst of fruity goodness.
+
+
+
+
+
+
+
+        </p>
+        <a href="#" class="btn btn-dark button">ORDER NOW</a>
       </div>
     </div>
     <div class="card" style="width: 20rem;">
-      <img src="beach1.jpeg" class="card-img-top kerala">
+      <img src="vennela.png" class="card-img-top kerala">
       <div class="card-body">
-        <h5 class="card-title">Goa – The Beach Paradise</h5>
-        <p class="card-text">A vibrant blend of golden beaches, lively nightlife, and Portuguese heritage. From the
-          serene shores of Palolem to the energetic vibes of Baga, Goa offers the perfect mix of relaxation and
-          adventure.</p>
-        <a href="#" class="btn btn-dark button">Book Now</a>
+        <h5 class="card-title"><b>Vanilla</b></h5>
+        <p class="card-text">A timeless classic featuring soft, fluffy sponge infused with rich, aromatic vanilla. Layered with smooth, creamy frosting, this cake offers a perfect balance of sweetness and elegance, making it a delightful choice for any occasion.</p>
+        <a href="#" class="btn btn-dark button">ORDER NOW</a>
       </div>
     </div>
     <div class="card" style="width: 20rem;">
-      <img src="delhi.jpeg" class="card-img-top kerala">
+      <img src="choclate.png" class="card-img-top kerala">
       <div class="card-body">
-        <h5 class="card-title">Delhi – The Heart of India</h5>
-        <p class="card-text">A dynamic fusion of history, culture, and modernity. From the majestic Red Fort to bustling
-          markets and vibrant street food, Delhi offers an unforgettable journey through time and tradition.</p>
-        <a href="#" class="btn btn-dark button">Book Now</a>
+        <h5 class="card-title"><b>Choclate</b></h5>
+        <p class="card-text">A heavenly delight with rich, moist chocolate sponge layers, enveloped in velvety chocolate ganache or frosting. Each bite offers an irresistible blend of deep cocoa flavor and smooth creaminess, making it a perfect treat for any occasion.
+
+          Chocolate Fudge – An ultra-decadent cake with dense, fudgy chocolate layers, smothered in rich, glossy chocolate frosting. A dream come true for true chocolate lovers!</p>
+        <a href="#" class="btn btn-dark button">ORDER NOW</a>
       </div>
     </div>
     <div class="card" style="width: 20rem;">
-      <img src="tamilnadu" class="card-img-top kerala">
+      <img src="strawberry.png" class="card-img-top kerala">
       <div class="card-body">
-        <h5 class="card-title">Tamil Nadu – Land of Temples and Traditions</h5>
-        <p class="card-text">A cultural gem with ancient temples, scenic hill stations, and pristine beaches. From the
-          grandeur of Meenakshi Temple to the serene Nilgiris, Tamil Nadu offers a perfect blend of history,
-          spirituality, and nature.</p>
-        <a href="#" class="btn btn-dark button">Book Now</a>
+        <h5 class="card-title"><b>Pink Strawberry</b></h5>
+        <p class="card-text">A delightful, soft sponge cake infused with sweet strawberry flavor, layered with luscious strawberry cream and topped with fresh berries for a refreshing, fruity treat.Strawberry Bliss – A light and fluffy cake bursting with natural strawberry goodness, paired with silky strawberry frosting for a perfect balance of sweetness and freshness.</p>
+        <a href="#" class="btn btn-dark button">ORDER NOW</a>
       </div>
     </div>
   </div>
@@ -155,4 +168,5 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 </body>
+
 </html>
